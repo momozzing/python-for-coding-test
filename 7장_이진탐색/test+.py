@@ -3,7 +3,7 @@ n, m = list(map(int, input().split(' ')))
 # 각 떡의 개별 높이 정보를 입력
 array = list(map(int, input().split()))
 
-# 이진 탐색을 위한 시작점과 끝점 설정
+# 이진 탐색을 위한 시작점과 끝점 설정   -> 이거 bisec으로 풀어보자. 
 start = 0
 end = max(array)
 
